@@ -1,0 +1,29 @@
+Research top-performing Instagram Reels in the [NICHE] niche using Claude in Chrome.
+
+SEED LIST
+- Start with these accounts: [@handle1, @handle2, @handle3]
+- Expand using: [hashtags / keywords to search], plus the "Suggested for you" accounts on each seed profile
+- Review [20] accounts total
+
+ACCOUNT FILTERS
+- Follower range: [5K–500K] (below 5K, outliers are mostly noise)
+- Skip: [brand accounts / meme pages / accounts outside the US / etc.]
+
+OUTLIER RULE
+- For each account, record the follower count, then scan the Reels tab
+- Flag any Reel where views ≥ 3x followers
+- Only count Reels posted in the last [90] days
+- Skip pinned Reels unless they also meet the date window
+
+OUTPUT: one table, sorted by ratio (highest first)
+| Account | Followers | Reel URL | Views | Ratio | Post date | Hook (first line / on-screen text) | Format | Why it likely worked |
+
+Then give me:
+1. Recurring patterns across the outliers: hook types, formats, length, talent, audio
+2. Anything that repeats on 3+ accounts
+3. 3–5 concepts we could adapt for [BRAND], with the outlier each one comes from
+
+RULES
+- Don't like, follow, comment, or DM
+- Mark anything you couldn't verify (hidden counts, rounded numbers like "1.2M")
+- Stop and check in if Instagram asks for verification or blocks the page
